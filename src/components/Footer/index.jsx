@@ -17,10 +17,10 @@ const Footer = () => {
         <div className="footer-main__content__right">
           <div className="footer-main__content__right__item">
             <h2>Sitemap</h2>
-            <a href="#">Home</a>
-            <a href="#">Benefit</a>
-            <a href="#">Trip</a>
-            <a href="#">Kontak</a>
+            <a href="#home-header">Home</a>
+            <a href="#home-why-us">Benefit</a>
+            <a href="#home-destination">Trip</a>
+            <a href="#home-contactus">Kontak</a>
           </div>
           <div className="footer-main__content__right__item">
             <h2>Kontak</h2>
