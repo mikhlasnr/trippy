@@ -22,8 +22,8 @@ const Nav = () => {
           <div className="navbar-main-menu">
             <a href="#home-header">Home</a>
             <a href="#home-why-us">Benefit</a>
-            <a href="#">Trip</a>
-            <a href="#">Contact</a>
+            <a href="#home-destination">Trip</a>
+            <a href="#home-contactus">Contact</a>
           </div>
         </div>
       </div>
