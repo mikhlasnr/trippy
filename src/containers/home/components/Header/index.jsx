@@ -1,11 +1,11 @@
 import React from "react"
 import "./Header.scss"
-import { ReactComponent as IcArrowRight } from "../../../../assets/icons/_Icon Wrap.svg"
+import { ReactComponent as IcArrowRight } from "../../../../assets/icons/ic-arrow-right--blue.svg"
 import { ReactComponent as Hero } from "../../../../assets/images/home-header-hero.svg"
 import { Button } from "@mui/material"
 const Header = () => {
   return (
-    <div id="home-header">
+    <article id="home-header">
       <div className="container">
         <div className="home-header__text">
           <h1>Rencanakan liburan dengan Trippy!</h1>
@@ -20,7 +20,7 @@ const Header = () => {
         </div>
       </div>
       <Hero className="home-header-hero"/>
-    </div>
+    </article>
   )
 }
 

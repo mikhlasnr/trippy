@@ -20,8 +20,8 @@ const Nav = () => {
         <div className="navbar-main__inner">
           <Logo />
           <div className="navbar-main-menu">
-            <a href="#">Home</a>
-            <a href="#">Benefit</a>
+            <a href="#home-header">Home</a>
+            <a href="#home-why-us">Benefit</a>
             <a href="#">Trip</a>
             <a href="#">Contact</a>
           </div>

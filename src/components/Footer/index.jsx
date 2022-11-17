@@ -30,6 +30,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div className="footer-main__copyright container">
+        <p>Made with love - Trippy, 2022</p>
+      </div>
     </footer>
   )
 }
